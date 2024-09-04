@@ -275,3 +275,69 @@
 // console.log(sum(1,2,3,4,5));
 
 //-END---------REST Parameters-----------------------//
+
+// const divide = function(a, b) {
+//     return a / b;
+// };
+
+// console.log(divide(10, 2)); \
+
+// const divide = ((a,b)=>a/b);
+// console.log(divide(10, 2)); 
+
+
+//--------shallow copy------deep copy----
+
+// let arr = [1,2,[1,2]];
+// let arr2 = [...arr]; //--------spread op----------pass by value ----shallow copy
+// let arr2 = JSON.parse(JSON.stringify(arr));//-----deep copy
+// arr1[2][0]=59;
+// arr2=arr;
+// arr2[2][0]=500;
+// console.log(arr2)
+// console.log(arr);
+// console.log(arr2);
+
+//---END-----shallow copy------deep copy----
+
+
+// const person = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+// };
+
+// console.log(person.name);
+
+// const { name, age, city } = person;
+
+// console.log(name);
+
+
+// let obj = {a:{ab:[1,2,3,4,5]},b:9}
+
+
+// console.log(obj.a,obj.b);
+
+// let sum = 0;
+// for(let i in obj){
+//     console.log(obj[i])
+//     if(typeof obj[i] === 'object'){
+//         sum += obj[i].ab.reduce((acc,val)=>acc+val,0);
+//     }else{
+//         sum+=obj[i];
+//     }
+// }
+// console.log(sum);
+
+
+
+// let arr=[1,2,3,[1,[2,3]]];
+
+// let arr1=[...arr];
+// let arr1=JSON.parse(JSON.stringify(arr))
+// console.log(arr[3][1][0])
+// arr1[3][1]=11;
+
+// console.log(arr);
+// console.log(arr1);
