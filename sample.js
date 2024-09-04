@@ -242,16 +242,36 @@
   
 //-------------------------call-----------------------------
 
-function greet(name) {
-    console.log("Hello, " + name);
-    sayGoodbye()
-}
+// function greet(name) {
+//     console.log("Hello, " + name);
+//     sayGoodbye()
+// }
 
-function sayGoodbye() {
-    console.log("Goodbye!");
-}
+// function sayGoodbye() {
+//     console.log("Goodbye!");
+// }
 
-greet("Arshad");
+// greet("Arshad");
 
 
+// (function(){
+//     console.log("Hi");
+// })();
 
+
+// let arr = [1,2,3,4,5,6,7];
+// let [one,two,...rest] = arr;
+
+// console.log(one);
+// console.log(rest);
+
+//----------REST Parameters-----------------------//
+
+// function sum(...number){
+//     let add=number.reduce((acc,val)=>acc+val, 0);
+//     return add
+// }
+
+// console.log(sum(1,2,3,4,5));
+
+//-END---------REST Parameters-----------------------//
