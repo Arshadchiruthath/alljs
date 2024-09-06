@@ -342,8 +342,61 @@
 // console.log(arr);
 // console.log(arr1);
 
-let arr = [1,2,3,4,5,6,7,8];
+// let arr = [1,2,3,4,5,6,7,8];
 
-let arr2=arr.reduce((n,nm)=>n+nm,0);
+// let arr2=arr.reduce((n,nm)=>n+nm,0);
 
-console.log(arr2);
+// console.log(arr2);
+
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// let arr1= arr.every((num)=>num%2==0);
+
+// console.log(arr1)
+
+
+// function fun (name,called){
+
+    // called("Hello",name)
+
+// }
+
+// function callback(n,s){
+    // console.log(n+ " "+s);
+    // console.log("goodbai")
+// }
+
+// fun("amar",callback)
+
+// let str ="hi arshad how are you";
+
+// let str1=str.substring(0,8);
+
+// console.log(str1);
+
+// let arr=[1,2,3,4]
+
+// let arr1=arr.reduce((n,val)=>n+val,10);
+
+// console.log(arr1);
+
+// let arr=["ashad","nadeem","amar"];
+
+// let arr1= arr.map((n)=>n[0].toUpperCase()+n.substring(1))
+
+// console.log(arr1);
+
+// let obj = [
+//     {name:"Arshad",
+//         id:4567890
+//     },
+//     {name:"Amar",
+//         id:50000000000
+//     }
+// ]
+
+// let arr = obj.map((n)=>n.name)
+
+// console.log(arr);
+
