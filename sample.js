@@ -400,3 +400,137 @@
 
 // console.log(arr);
 
+// let obj={
+//     name: "arshaf",
+//     age: 567788,
+   
+// }
+// console.log(Object.entries(obj))
+
+
+
+
+// let p=new Promise((resolve,reject)=>{
+//     resolve("succes")
+// })
+// let x=new Promise((resolve,reject)=>{
+//     reject("failed")
+// })
+// let y=new Promise((resolve,reject)=>{
+//     resolve("succes")
+// })
+// let z=new Promise((resolve,reject)=>{
+//     resolve("succes")
+// })
+// // let prall=Promise.all([p,x,y,z])
+// // .then(res=>{
+// //     console.log(res)
+// // })
+// // .catch(err=>{
+// //     console.log("error")
+// // })
+// async function absd(){
+//     try{
+
+    
+//     let a= await p
+//     console.log(a)
+//     let b= await x
+//     console.log(b)
+//     let c= await y
+//     console.log(c)
+//     let d= await z
+//     console.log(d)
+//     }catch(err){
+//         console.log(err)
+//     }finally(){
+//      console.log("hjsdfhjbfkj")   
+//     }
+//     `  ${}`
+// }
+// absd()
+// function hello(name="guest"){
+//     console.log(`hello ${name}`)
+// }
+// hello()
+
+// class person{
+//     constructor(name){
+//         this.name=name
+//     }
+// }
+// let arsha=new person("amar")
+// console.log(arsha)
+
+
+// (function(){
+//     console.log("hi")
+// })()
+
+// generator
+// function* hello(){
+//    for(let i=1;i<=10;i++){
+//     if(i%2===0){
+//         yield i
+//     }
+//    }
+// }
+// let ss=hello()
+// console.log(ss.next().value)
+// console.log(ss.next().value)
+// console.log(ss.next().value)
+// console.log(ss.next().value)
+// console.log(ss.next().value)
+// console.log(ss.next().value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let p=new Promise((resolve,reject)=>{
+
+    let succes=true;
+
+    setTimeout(()=>{
+        if(succes){
+            resolve("result")
+            
+            
+        }
+        else console.log("rejected");
+        
+    },1000)
+})
+
+  p.then(res=>{
+    console.log(res);
+  })
+  
+
+
+
+
+//  let arr = [1,2,3,4,5,6,7]
+ 
+//  let largest=-Infinity;
+
+//  for(let i=0 ; i<arr.length;i++){
+    
+//     if(i>largest){
+//         largest=arr[i];
+//     }
+    
+// }
+//  console.log(largest);
+ 
